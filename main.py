@@ -85,7 +85,7 @@ def info_page():
 # 3. UI for messenger
 @app.route("/chat")
 def display_chat():
-    return render_template("index.html")
+    return render_template("chat.html")
 
 
 app.run()
